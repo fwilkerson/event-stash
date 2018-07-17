@@ -1,0 +1,20 @@
+{
+  "name": "event-stash",
+  "version": "1.0.0",
+  "description": "Persist events with IndexedDB",
+  "main": "src/event-stash.js",
+  "scripts": {
+    "test": "karmatic"
+  },
+  "keywords": [],
+  "author": "Frank A. Wilkerson",
+  "license": "MIT",
+  "dependencies": {
+    "cuid": "^2.1.1"
+  },
+  "devDependencies": {
+    "karmatic": "^1.2.0",
+    "webpack": "^4.16.0",
+    "workerize-loader": "^1.0.3"
+  }
+}
